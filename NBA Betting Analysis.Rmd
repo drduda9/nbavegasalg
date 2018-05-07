@@ -1,0 +1,41 @@
+---
+title: "Capstone Project NBA Betting"
+author: "Dan Duda"
+date: "4/21/2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Vegas NBA Betting Analysis
+
+### Question
+In my capstone project I plan to analyze the results of the current NBA season. I will aim to determine and explain the information gap between data calculated lines and Vegas' offered lines.
+
+### Target Audience 
+I intend to present the findings so they will be of use for both the general betting public as well as for Professional Gamblers. This will help to provide deeper insight as to the actual accuracy of Vegas across a variety of levels. I plan to explore trends, patterns and outliers to discover the information gap between Vegas’ knowledge and what data alone determines the lines should have been. 
+
+### Intended Output
+In theory, the professional gambler can use the resulting algorithm to determine what the line should be based upon strictly data and make decisions on the offered Vegas line. This should result in increased accuracy for their choices as it will help to eliminate emotion based decision-making.
+
+As for the general betting public, the resulting information will be available and published through social media. This information should help guide future decision-making and provide greater insight for the general public. Given that a technical tactic used by Professional Gamblers is to bet against the public, this added information should help increase the public’s winning percentage and thus changing the strategy of professional’s and shifting money altogether.
+
+### Data 
+The data used to complete this project will be analyzing the past 10 years of NBA scores and Vegas betting lines. I have a breakdown of quarter-by-quarter scores of each game as well as which team was home and away, the date of each game and the consensus lines offered by Vegas.
+
+### Plan
+My plan of attack to this analysis it to begin by finding spread averages and results for each team in a variety of situations including: home games, away games, specific situations (i.e. back to back games), and more. After determining these lines for each individual team in respect to certain situations I can determine the difference between the given lines from Vegas in those same situations, the lines I calculated and the end result from each game. 
+
+With this information, I will be able to create an algorithm used to predict the outcome of games unique to each specific situation that I previously analyzed.
+
+After repeated testing of the algorithm, I intend to compare my calculated lines with the Vegas lines and the end results of each game from the 2017-2018 NBA Regular Season. This comparison will include a deeper analysis to identify trends and outliers, which will also be further analyzed. 
+
+### Deliverables
+The end result will include an algorithm that can be used to predict NBA game scores as well as an analysis into the information gap between what data determines the lines should be and the Vegas offered lines. This could be used for bettors to improve their accuracy and thus make more money.
+
